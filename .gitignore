@@ -15,6 +15,9 @@
 #env variables
 .env
 
+#Webstorm Folder
+.idea
+
 # production
 /build
 
