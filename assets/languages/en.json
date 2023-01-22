@@ -1,0 +1,18 @@
+{
+  "header": {
+    "menuLabel": "Menu",
+    "shareLabel": "Share"
+  },
+  "banner": {
+    "mainText": "Show what you are currently listening on Spotify while you are live streaming!",
+    "sloganText": "Share your music taste with your viewers without the struggle.",
+    "paragraph": "SoundScope works by connecting to Spotify, and getting what your account is currently playing, and then using that information to show it with one of our music players. Your account information is secure, the app only gets the song."
+  },
+  "content": {
+    "titleText": "Music Players",
+    "sloganText": "Choose your favorite"
+  },
+  "footer": {
+    "mainText": "Created by Vannent"
+  }
+}

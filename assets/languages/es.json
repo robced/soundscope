@@ -1,0 +1,18 @@
+{
+  "header": {
+    "menuLabel": "Menu",
+    "shareLabel": "Compartir"
+  },
+  "banner": {
+    "mainText": "¡Muestra lo que estás reproduciendo en Spotify mientras estás transmitiendo!",
+    "sloganText": "Comparte tu gusto musical con tus espectadores facilmente.",
+    "paragraph": "SoundScope se conecta a Spotify, obteniene lo que estas reproduciendo y luego utilizando esa información para mostrarlo con uno de nuestros reproductores de música. La información de tu cuenta es segura, la aplicación solo obtiene la canción."
+  },
+  "content": {
+    "titleText": "Reproductores",
+    "sloganText": "Selecciona tu favorito"
+  },
+  "footer": {
+    "mainText": "Creado por Vannent"
+  }
+}
