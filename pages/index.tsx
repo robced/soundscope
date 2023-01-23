@@ -12,9 +12,9 @@ import {getSession, useSession} from "next-auth/react";
 export default function Home() {
     const {data: session} = useSession()
 
-    if (session) {
-        getCurrentlyPlaying((session.user as any).token.access_token).then((data) => console.log("Loaded: ", data))
-    }
+    // if (session) {
+    //     getCurrentlyPlaying((session.user as any).token.access_token).then((data) => console.log("Loaded: ", data))
+    // }
 
 
     return (
@@ -37,11 +37,4 @@ export default function Home() {
             </footer>
         </div>
     )
-}
-
-export const getServerSideProps = async (ctx: any) => {
-    const session = await getSession(ctx);
-    return {
-        props: {token: session}
-    }
 }
