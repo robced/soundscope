@@ -15,4 +15,6 @@ export interface Player extends Component {
     image: Boolean;
     background: Boolean;
     timeline: Boolean;
+    production?: Boolean;
+
 }
