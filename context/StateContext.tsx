@@ -36,7 +36,12 @@ export const StateContext = ({children}: ContextProps) => {
             appData,
             setAppData,
             showLanguageMenu,
-            setShowLanguageMenu
+            setShowLanguageMenu,
+            songName, setSongName,
+            songImageLink, setSongImageLink,
+            artistName, setArtistName,
+            songLength, setSongLength,
+            songTimeLeft, setSongTimeLeft
         }}>
             {children}
         </Context.Provider>
