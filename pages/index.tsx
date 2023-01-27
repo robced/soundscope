@@ -4,18 +4,8 @@ import React from "react";
 import Footer from "@/components/Layout/Footer";
 import Banner from "@/components/Banner";
 import Content from "@/components/Content";
-import NextAuth from "next-auth";
-import getCurrentlyPlaying from "@/pages/api/spotify";
-import {getSession, useSession} from "next-auth/react";
-
 
 export default function Home() {
-    const {data: session} = useSession()
-
-    // if (session) {
-    //     getCurrentlyPlaying((session.user as any).token.access_token).then((data) => console.log("Loaded: ", data))
-    // }
-
 
     return (
         <div className="h-screen w-screen overflow-hidden px-[5vw] font-cabin">
