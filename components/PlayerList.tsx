@@ -32,10 +32,10 @@ const PlayerList = () => {
 
     return (
         <div className="w-full h-full grid grid-cols-3">
-            {playersArr.map(({id, name, image, background, timeline
-            }) => (
-                <Player key={id} text={name} image={image} background={background} timeline={timeline} />
-            ))}
+                {playersArr.map(({id, name, image, background, timeline
+                }) => (
+                    <Player key={id} text={name} image={image} background={background} timeline={timeline} />
+                ))}
         </div>
     );
 };
