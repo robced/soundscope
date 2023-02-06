@@ -8,7 +8,7 @@ import Content from "@/components/Content";
 export default function Home() {
 
     return (
-        <div className="h-screen w-screen overflow-hidden px-[5vw] font-cabin">
+        <div className="h-screen w-screen overflow-hidden px-[5vw] font-cabin bg-[#EAEBEA]">
             <Head>
                 <title>SoundScope</title>
                 <meta name="description" content="Show what you are currently listening to."/>
@@ -18,7 +18,7 @@ export default function Home() {
             <header className="h-[10vh] w-full">
                 <Header/>
             </header>
-            <main className="h-[80vh] w-full flex flex-col justify-between">
+            <main className="h-[80vh] w-full flex flex-col justify-between gap-10">
                 <Banner/>
                 <Content/>
             </main>
